@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,11 +8,11 @@ const Navbar = () => {
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light navbar-bg">
               <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <NavLink className="navbar-brand" to="/">
                   Kapoor's Hostel
-                </a>
+                </NavLink>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -29,23 +30,41 @@ const Navbar = () => {
                 >
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <a
-                        className="nav-link active"
+                      <NavLink
+                        className={(navBar) =>
+                          navBar.isActive
+                            ? "nav-link active menu-active"
+                            : "nav-link"
+                        }
                         aria-current="page"
-                        href="#"
+                        to="/"
                       >
                         Home
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">
+                      <NavLink
+                        className={(navBar) =>
+                          navBar.isActive
+                            ? "nav-link active menu-active"
+                            : "nav-link"
+                        }
+                        to="/about-us"
+                      >
                         About
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        Services
-                      </a>
+                      <NavLink
+                        className={(navBar) =>
+                          navBar.isActive
+                            ? "nav-link active menu-active"
+                            : "nav-link"
+                        }
+                        to="/contact-us"
+                      >
+                        Contact us
+                      </NavLink>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#">

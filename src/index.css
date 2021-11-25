@@ -11,7 +11,7 @@
 .navbar-bg{
   background-color: #fff !important;
 }
-.navbar-brand{
+.brand-design{
   font-size: 1.9rem !important;
   color: #565387 !important;
 }
@@ -22,4 +22,17 @@
 .menu-active{
   font-weight: bold;
   border-bottom: 1px solid #565387;
+}
+.navbar a:hover{
+  color: #565387 !important;
+}
+
+@media (max-width:991px){
+  .menu-active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+  .brand-design{
+    font-size: 1.5rem !important;
+  }
 }
