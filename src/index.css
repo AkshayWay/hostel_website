@@ -27,6 +27,33 @@
   color: #565387 !important;
 }
 
+#header .btn-get-started:hover{
+  background-color: #3498db;
+  color:#fff;
+}
+.header-img{
+  text-align: center;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes  up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
 @media (max-width:991px){
   .menu-active{
     font-weight: bold;
