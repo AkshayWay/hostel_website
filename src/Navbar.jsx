@@ -7,11 +7,11 @@ const Navbar = () => {
     <>
       <div className="container-fluid nav_bg">
         <div className="row">
-          <div className="col-10 mx-auto">
+          <div className="col-xs-12 col-lg-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light navbar-bg">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
-                  Kapoor's Hostel
+                  Cocoon
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -49,6 +49,18 @@ const Navbar = () => {
                             ? "nav-link active menu-active"
                             : "nav-link"
                         }
+                        to="/Services"
+                      >
+                        Services
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        className={(navBar) =>
+                          navBar.isActive
+                            ? "nav-link active menu-active"
+                            : "nav-link"
+                        }
                         to="/about-us"
                       >
                         About
@@ -65,11 +77,6 @@ const Navbar = () => {
                       >
                         Contact us
                       </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        Link
-                      </a>
                     </li>
                   </ul>
                 </div>
