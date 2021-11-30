@@ -12,6 +12,8 @@ import Home from "./Home.jsx";
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
+import Services from "./Services";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -20,10 +22,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/features" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     </>
   );
 };
