@@ -34,10 +34,22 @@
 .header-img{
   text-align: center;
 }
+#header .header-img img{
+  width: 85%;
+  padding: 20px;
+}
 #header .animated{
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-
+.imgPadding{
+  padding: 20px;
+}
+footer{
+  position:fixed;
+left:0;
+bottom:0;
+right:0;
+}
 @-webkit-keyframes up-down{
   0%{
     transform: translateY(10px);
@@ -61,5 +73,30 @@
   }
   .brand-design{
     font-size: 1.5rem !important;
+  }
+  #header{
+    height: 80vh;
+    text-align: center;
+  }
+  #header .header-img{
+    text-align: center;
+  }
+  #header .header-img img{
+    width: 60%;
+  }
+}
+@media (max-width:768px) {
+  #header{
+    margin-top: none;
+  }
+  #header h1{
+    font-size: 28px;
+  }
+  #header h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header .header-img img{
+    width: 70%;
   }
 }
