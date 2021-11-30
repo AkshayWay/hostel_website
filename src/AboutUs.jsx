@@ -1,12 +1,20 @@
 import "./App.css";
 import React from "react";
 
-const AboutUs = () => {
+import AboutImage from "../src/Images/girls_hostel.svg";
+import Common from "./Common";
+
+const About = () => {
   return (
-    <div className="App">
-      <h1>Welcome home Akshay</h1>
-    </div>
+    <>
+      <Common
+        name="Welcome to About Page"
+        imgSrc={AboutImage}
+        visit="/contact"
+        btname="Contact Now"
+      />
+    </>
   );
 };
 
-export default AboutUs;
+export default About;
