@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/hostel_website/static/css/main.43558088.chunk.css",
+    "main.js": "/hostel_website/static/js/main.5ce4c132.chunk.js",
+    "main.js.map": "/hostel_website/static/js/main.5ce4c132.chunk.js.map",
+    "runtime-main.js": "/hostel_website/static/js/runtime-main.cdf919d1.js",
+    "runtime-main.js.map": "/hostel_website/static/js/runtime-main.cdf919d1.js.map",
+    "static/css/2.383c0125.chunk.css": "/hostel_website/static/css/2.383c0125.chunk.css",
+    "static/js/2.fe3957ff.chunk.js": "/hostel_website/static/js/2.fe3957ff.chunk.js",
+    "static/js/2.fe3957ff.chunk.js.map": "/hostel_website/static/js/2.fe3957ff.chunk.js.map",
+    "index.html": "/hostel_website/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/hostel_website/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.43558088.chunk.css.map": "/hostel_website/static/css/main.43558088.chunk.css.map",
+    "static/js/2.fe3957ff.chunk.js.LICENSE.txt": "/hostel_website/static/js/2.fe3957ff.chunk.js.LICENSE.txt",
+    "static/media/clean_service.dd23464f.svg": "/hostel_website/static/media/clean_service.dd23464f.svg",
+    "static/media/contact_page.0549287b.svg": "/hostel_website/static/media/contact_page.0549287b.svg",
+    "static/media/girls_hostel.75f87af2.svg": "/hostel_website/static/media/girls_hostel.75f87af2.svg",
+    "static/media/hostel_page.9ddd8b3d.svg": "/hostel_website/static/media/hostel_page.9ddd8b3d.svg",
+    "static/media/wifi_service.61df6b18.svg": "/hostel_website/static/media/wifi_service.61df6b18.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdf919d1.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.fe3957ff.chunk.js",
+    "static/css/main.43558088.chunk.css",
+    "static/js/main.5ce4c132.chunk.js"
+  ]
+}
